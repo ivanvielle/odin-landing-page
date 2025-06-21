@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto";
+    font-family: Roboto;
 }
 
 body {
@@ -113,7 +113,7 @@ a {
 
 .random-card-container {
     display: flex;
-    gap: 8px;
+    gap: 16px;
 }
 
 .card-container {
@@ -127,6 +127,12 @@ a {
     height: 250px;
     border: 2px solid blue;
     border-radius: 25px;
+}
+
+.card-container p {
+    font-size: 18px;
+    color: gray;
+    width: 250px;
 }
 
 /* quote section */
@@ -180,10 +186,14 @@ a {
 }
 
 #cta-btn {
-    width: 120px;
-    height: 60px;
-    border-radius: 10px;
-    border: 1px solid white;
+    background-color: #3882f6;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: 3px solid #e5e7eb;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 20px;
     cursor: pointer;
 }
 
