@@ -154,6 +154,39 @@ a {
     justify-content: flex-end;
 }
 
+/* call to action section */
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    padding: 64px;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.cta-text {
+    color: white;
+}
+
+.cta-text p:first-child {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+#cta-btn {
+    width: 120px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
 /* footer */
 .footer {
     background-color: #1f2937;
